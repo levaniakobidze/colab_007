@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body {
+ body {
   font-family: "DM Sans", sans-serif;
   font-style: normal;
-}
+ } 
 header {
   display: flex;
   justify-content: center;
@@ -109,6 +109,7 @@ nav {
 }
 .section-1 {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -117,8 +118,86 @@ nav {
   height: 100vh;
   width: 100%;
 }
+.section1-part2 {
+  height: 495px;
+  width: 375px;
+  background-color: #000000;
+  margin-top: -6px;
+  padding: 48px 28px 48px 29px;
+}
+.last-month-story {
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #ffffff;
+}
+h2 {
+  font-family: DM Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 3.3333332538604736px;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 16px;
+}
+.section1-part2-div1 {
+  display: flex;
+  gap: 9px;
+  margin-top: 16px;
+}
+.section1-date {
+  font-family: DM Sans;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+  opacity: 75%;
+}
+.section1-by {
+  font-family: DM Sans;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+}
+.section1-text {
+  font-family: DM Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  opacity: 60%;
+  color: #ffffff;
+  margin-top: 24px;
+}
+.section1-part2-div2 {
+  display: flex;
+  margin-top: 24px;
+  gap: 16px;
+}
+.read-story {
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+.arrow {
+  height: 12px;
+  width: 42px;
+}
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 768px) {
   nav {
     padding: 28px 39px;
   }
@@ -153,6 +232,20 @@ nav {
     letter-spacing: 2px;
     color: #ffffff;
   }
+  .section1-background {
+    display: none;
+  }
+  .section1-part2 {
+    background-image: url(./assets/stories/tablet/moon-of-appalacia.jpg);
+    height: 650px;
+    width: 768px;
+    padding: 122px 342px 122px 41px;
+  }
+  h2 {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 4.166666507720947px;
+  }
 }
 @media screen and (min-width: 1440px) {
   nav {
@@ -166,5 +259,16 @@ nav {
   }
   .get-invite:hover > .get-invite-link {
     color: #000000;
+  }
+  .section1-part2 {
+    background-image: url(./assets/stories/desktop/moon-of-appalacia.jpg);
+    height: 650px;
+    width: 1440px; 
+    padding: 122px 940px 122px 112px;
+  }
+  h2 {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 4.166666507720947px;
   }
 }
