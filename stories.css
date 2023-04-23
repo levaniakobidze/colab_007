@@ -7,6 +7,7 @@
 body {
   font-family: "DM Sans", sans-serif;
   font-style: normal;
+  overflow-x: hidden;
 }
 header {
   display: flex;
@@ -127,7 +128,6 @@ nav {
   padding: 48px 28px 48px 31px;
 }
 .last-month-story {
-  font-family: DM Sans;
   font-size: 12px;
   font-weight: 700;
   line-height: 16px;
@@ -136,7 +136,6 @@ nav {
   color: #ffffff;
 }
 h2 {
-  font-family: DM Sans;
   font-size: 32px;
   font-weight: 700;
   line-height: 40px;
@@ -151,7 +150,6 @@ h2 {
   margin-top: 16px;
 }
 .section1-date {
-  font-family: DM Sans;
   font-size: 13px;
   font-weight: 400;
   line-height: 17px;
@@ -161,7 +159,6 @@ h2 {
   opacity: 75%;
 }
 .section1-by {
-  font-family: DM Sans;
   font-size: 13px;
   font-weight: 400;
   line-height: 17px;
@@ -170,7 +167,6 @@ h2 {
   color: #ffffff;
 }
 .section1-text {
-  font-family: DM Sans;
   font-size: 15px;
   font-weight: 400;
   line-height: 25px;
@@ -186,7 +182,6 @@ h2 {
   gap: 16px;
 }
 .read-story {
-  font-family: DM Sans;
   font-size: 12px;
   font-weight: 700;
   line-height: 16px;
@@ -205,7 +200,6 @@ h2 {
 .section2-image {
   height: 375px;
   width: 375px;
-  margin-top: -1px;
 }
 .one {
   background: linear-gradient(
@@ -335,16 +329,11 @@ h2 {
     ),
     url(./assets/stories/mobile/land-of-dreams.jpg);
 }
-.story {
-  height: 375px;
-  width: 375px;
-}
 .section2-text {
   margin-top: 230px;
   margin-left: 40px;
 }
 .section2-date {
-  font-family: DM Sans;
   font-size: 13px;
   font-weight: 400;
   line-height: 17px;
@@ -354,7 +343,6 @@ h2 {
   opacity: 80%;
 }
 h3 {
-  font-family: DM Sans;
   font-size: 18px;
   font-weight: 700;
   line-height: 25px;
@@ -364,7 +352,6 @@ h3 {
   margin-top: 4px;
 }
 .section2-by {
-  font-family: DM Sans;
   font-size: 13px;
   font-weight: 400;
   line-height: 17px;
@@ -386,10 +373,102 @@ hr {
   gap: 156px;
   margin-top: 20px;
 }
-.story-desktop {
-  display: none;
+/* footer */
+footer {
+  background-color: #000000;
+  height: 539px;
+  width: 100%;
+  display: grid;
+  justify-content: center;
 }
-
+.footer-logo {
+  margin-top: 56px;
+  align-items: center;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+}
+.invite {
+  gap: 22px;
+  justify-content: center;
+  margin-top: 119px;
+}
+.footer-texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 19px;
+  margin-top: 51px;
+}
+.footer-text {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.icons {
+  display: flex;
+  gap: 14.33px;
+  justify-content: center;
+  margin-top: 32px;
+  cursor: pointer;
+}
+.icon {
+  height: 20px;
+  width: 20px;
+  background-size: cover;
+  display: inline-block;
+}
+.facebook {
+  background-image: url(./assets/shared/desktop/facebooklogo.svg);
+}
+.facebook:hover,
+.facebook:focus {
+  background-image: url(./assets/shared/desktop/facebook.svg);
+}
+.youtube {
+  background-image: url(./assets/shared/desktop/youtubelogo.svg);
+}
+.youtube:hover,
+.youtube:focus {
+  background-image: url(./assets/shared/desktop/youtube.svg);
+}
+.twitter {
+  background-image: url(./assets/shared/desktop/twitterlogo.svg);
+}
+.twitter:hover,
+.twitter:focus {
+  background-image: url(./assets/shared/desktop/twitter.svg);
+}
+.pinterest {
+  background-image: url(./assets/shared/desktop/pinterest.logo.svg);
+}
+.pinterest:hover,
+.pinterest:focus {
+  background-image: url(./assets/shared/desktop/pinterest.svg);
+}
+.instagram {
+  background-image: url(./assets/shared/desktop/instagramlogo.svg);
+}
+.instagram:hover,
+.instagram:focus {
+  background-image: url(./assets/shared/desktop/instagram.svg);
+}
+.copyright {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 50%;
+  margin-top: 39px;
+  margin-bottom: 56px;
+}
 @media screen and (min-width: 768px) {
   nav {
     padding: 28px 39px;
@@ -434,14 +513,6 @@ hr {
   .section2-image {
     height: 500px;
     width: 384px;
-  }
-  .story-desktop {
-    height: 500px;
-    width: 384px;
-    display: inline;
-  }
-  .story {
-    display: none;
   }
   .section2-text {
     margin-top: 340px;
@@ -606,7 +677,57 @@ hr {
       url(./assets/stories/desktop/land-of-dreams.jpg);
     background-size: cover;
   }
+  footer {
+    height: 284px;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: unset;
+    grid-template-areas:
+      "logo  invite"
+      "footer-texts footer-text"
+      "icons copyright";
+  }
+  .footer-logo {
+    margin-top: 64px;
+    margin-left: -20px;
+    grid-area: logo;
+    display: inline;
+  }
+  .invite {
+    margin-top: 64px;
+    margin-right: -70px;
+    grid-area: invite;
+  }
+  .footer-texts {
+    flex-direction: row;
+    gap: 26px;
+    margin-top: 32px;
+    margin-left: -23px;
+    grid-area: footer-texts;
+  }
+  .footer-text {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 2px;
+  }
+  .icons {
+    margin-top: 32px;
+    margin-left: -162px;
+    grid-area: icons;
+  }
+  .copyright {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    opacity: 50%;
+    margin-top: 39px;
+    margin-bottom: unset;
+    margin-right: -10px;
+    grid-area: copyright;
+  }
 }
+
 @media screen and (min-width: 1440px) {
   nav {
     padding: 28px 160px;
@@ -637,12 +758,66 @@ hr {
   .section2-image {
     height: 500px;
     width: 360px;
+    position: relative;
+    top: 0;
+    transition: top 0.5s ease-in-out;
   }
-  .story-desktop {
-    height: 500px;
-    width: 360px;
+  .section2-image:hover {
+    top: -25px;
+    cursor: pointer;
+  }
+  .section2-image:hover::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background: linear-gradient(
+      26.57deg,
+      #ffc593 0%,
+      #bc7198 43.29%,
+      #5a77ff 83.33%
+    );
   }
   .section2-text {
     margin-left: 40px;
+  }
+  footer {
+    height:250px;
+    justify-content: space-around;
+    grid-template-columns: unset;
+    grid-template-areas:
+      "logo footer-texts invite"
+      "icons footer-texts copyright";
+  }
+  .footer-logo {
+    margin-top: 64px;
+    margin-left: unset;
+  }
+  .invite {
+    margin-top: 64px;
+    margin-right: unset;
+    margin-left: 75px;
+  }
+  .footer-texts {
+    flex-direction: column;
+    margin-top: 4px;
+    margin-left: -230px;
+    gap: 19px;
+    grid-area: footer-texts;
+  }
+  .footer-text{
+    text-align: left;
+  }
+  .icons {
+    margin-top: unset;
+    margin-top: 12px;
+    margin-left: -12px;
+  }
+  .copyright {
+    margin-top: unset;
+    margin-bottom: unset;
   }
 }
