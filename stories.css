@@ -202,131 +202,67 @@ h2 {
   width: 375px;
 }
 .one {
-  background: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0.0001) 0.27%,
-      rgba(0, 0, 0, 0.661222) 100%
-    ),
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%),
     url(./assets/stories/mobile/mountains.jpg);
 }
 .two {
-  background: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0.0001) 0.27%,
-      rgba(0, 0, 0, 0.661222) 100%
-    ),
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%),
     url(./assets/stories/mobile/cityscapes.jpg);
 }
 .three {
-  background: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0.0001) 0.27%,
-      rgba(0, 0, 0, 0.661222) 100%
-    ),
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%),
     url(./assets/stories/mobile/18-days-voyage.jpg);
 }
 .four {
-  background: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0.0001) 0.27%,
-      rgba(0, 0, 0, 0.661222) 100%
-    ),
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%),
     url(./assets/stories/mobile/architecturals.jpg);
 }
 .five {
-  background: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0.0001) 0.27%,
-      rgba(0, 0, 0, 0.661222) 100%
-    ),
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%),
     url(./assets/stories/mobile/world-tour.jpg);
 }
 .six {
-  background: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0.0001) 0.27%,
-      rgba(0, 0, 0, 0.661222) 100%
-    ),
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%),
     url(./assets/stories/mobile/unforeseen-corners.jpg);
 }
 .seven {
-  background: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0.0001) 0.27%,
-      rgba(0, 0, 0, 0.661222) 100%
-    ),
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%),
     url(./assets/stories/mobile/king-on-africa.jpg);
 }
 .eight {
-  background: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0.0001) 0.27%,
-      rgba(0, 0, 0, 0.661222) 100%
-    ),
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%),
     url(./assets/stories/mobile/trip-to-nowhere.jpg);
 }
 .nine {
-  background: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0.0001) 0.27%,
-      rgba(0, 0, 0, 0.661222) 100%
-    ),
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%),
     url(./assets/stories/mobile/rage-of-the-sea.jpg);
 }
 .ten {
-  background: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0.0001) 0.27%,
-      rgba(0, 0, 0, 0.661222) 100%
-    ),
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%),
     url(./assets/stories/mobile/running-free.jpg);
 }
 .eleven {
-  background: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0.0001) 0.27%,
-      rgba(0, 0, 0, 0.661222) 100%
-    ),
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%),
     url(./assets/stories/mobile/behind-the-waves.jpg);
 }
 .twelve {
-  background: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0.0001) 0.27%,
-      rgba(0, 0, 0, 0.661222) 100%
-    ),
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%),
     url(./assets/stories/mobile/calm-waters.jpg);
 }
 .thirteen {
-  background: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0.0001) 0.27%,
-      rgba(0, 0, 0, 0.661222) 100%
-    ),
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%),
     url(./assets/stories/mobile/milky-way.jpg);
 }
 .fourteen {
-  background: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0.0001) 0.27%,
-      rgba(0, 0, 0, 0.661222) 100%
-    ),
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%),
     url(./assets/stories/mobile/dark-forest.jpg);
 }
 .fifteen {
-  background: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0.0001) 0.27%,
-      rgba(0, 0, 0, 0.661222) 100%
-    ),
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%),
     url(./assets/stories/mobile/somwarpet.jpg);
 }
 .sixteen {
-  background: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0.0001) 0.27%,
-      rgba(0, 0, 0, 0.661222) 100%
-    ),
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%),
     url(./assets/stories/mobile/land-of-dreams.jpg);
 }
 .section2-text {
@@ -534,146 +470,82 @@ footer {
     width: 384px;
   }
   .one {
-    background: linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0.0001) 0.27%,
-        rgba(0, 0, 0, 0.661222) 100%
-      ),
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%),
       url(./assets/stories/desktop/mountains.jpg);
     background-size: cover;
   }
   .two {
-    background: linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0.0001) 0.27%,
-        rgba(0, 0, 0, 0.661222) 100%
-      ),
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%),
       url(./assets/stories/desktop/cityscapes.jpg);
     background-size: cover;
   }
   .three {
-    background: linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0.0001) 0.27%,
-        rgba(0, 0, 0, 0.661222) 100%
-      ),
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%),
       url(./assets/stories/desktop/18-days-voyage.jpg);
     background-size: cover;
   }
   .four {
-    background: linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0.0001) 0.27%,
-        rgba(0, 0, 0, 0.661222) 100%
-      ),
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%),
       url(./assets/stories/desktop/architecturals.jpg);
     background-size: cover;
   }
   .five {
-    background: linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0.0001) 0.27%,
-        rgba(0, 0, 0, 0.661222) 100%
-      ),
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%),
       url(./assets/stories/desktop/world-tour.jpg);
     background-size: cover;
   }
   .six {
-    background: linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0.0001) 0.27%,
-        rgba(0, 0, 0, 0.661222) 100%
-      ),
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%),
       url(./assets/stories/desktop/unforeseen-corners.jpg);
     background-size: cover;
   }
   .seven {
-    background: linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0.0001) 0.27%,
-        rgba(0, 0, 0, 0.661222) 100%
-      ),
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%),
       url(./assets/stories/desktop/king-on-africa.jpg);
     background-size: cover;
   }
   .eight {
-    background: linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0.0001) 0.27%,
-        rgba(0, 0, 0, 0.661222) 100%
-      ),
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%),
       url(./assets/stories/desktop/trip-to-nowhere.jpg);
     background-size: cover;
   }
   .nine {
-    background: linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0.0001) 0.27%,
-        rgba(0, 0, 0, 0.661222) 100%
-      ),
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%),
       url(./assets/stories/desktop/rage-of-the-sea.jpg);
     background-size: cover;
   }
   .ten {
-    background: linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0.0001) 0.27%,
-        rgba(0, 0, 0, 0.661222) 100%
-      ),
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%),
       url(./assets/stories/desktop/running-free.jpg);
     background-size: cover;
   }
   .eleven {
-    background: linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0.0001) 0.27%,
-        rgba(0, 0, 0, 0.661222) 100%
-      ),
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%),
       url(./assets/stories/desktop/behind-the-waves.jpg);
     background-size: cover;
   }
   .twelve {
-    background: linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0.0001) 0.27%,
-        rgba(0, 0, 0, 0.661222) 100%
-      ),
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%),
       url(./assets/stories/desktop/calm-waters.jpg);
     background-size: cover;
   }
   .thirteen {
-    background: linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0.0001) 0.27%,
-        rgba(0, 0, 0, 0.661222) 100%
-      ),
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%),
       url(./assets/stories/desktop/milky-way.jpg);
     background-size: cover;
   }
   .fourteen {
-    background: linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0.0001) 0.27%,
-        rgba(0, 0, 0, 0.661222) 100%
-      ),
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%),
       url(./assets/stories/desktop/dark-forest.jpg);
     background-size: cover;
   }
   .fifteen {
-    background: linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0.0001) 0.27%,
-        rgba(0, 0, 0, 0.661222) 100%
-      ),
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%),
       url(./assets/stories/desktop/somwarpet.jpg);
     background-size: cover;
   }
   .sixteen {
-    background: linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0.0001) 0.27%,
-        rgba(0, 0, 0, 0.661222) 100%
-      ),
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%),
       url(./assets/stories/desktop/land-of-dreams.jpg);
     background-size: cover;
   }
@@ -774,18 +646,13 @@ footer {
     left: 0;
     width: 100%;
     height: 6px;
-    background: linear-gradient(
-      26.57deg,
-      #ffc593 0%,
-      #bc7198 43.29%,
-      #5a77ff 83.33%
-    );
+    background: linear-gradient(26.57deg, #ffc593 0%, #bc7198 43.29%, #5a77ff 83.33%);
   }
   .section2-text {
     margin-left: 40px;
   }
   footer {
-    height:250px;
+    height: 250px;
     justify-content: space-around;
     grid-template-columns: unset;
     grid-template-areas:
@@ -808,7 +675,7 @@ footer {
     gap: 19px;
     grid-area: footer-texts;
   }
-  .footer-text{
+  .footer-text {
     text-align: left;
   }
   .icons {
