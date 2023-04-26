@@ -687,4 +687,9 @@ footer {
     margin-top: unset;
     margin-bottom: unset;
   }
+  .footer-text:hover {
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.3;
+  }
 }
