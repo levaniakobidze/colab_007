@@ -573,7 +573,7 @@ footer {
   .footer-texts {
     flex-direction: row;
     gap: 26px;
-    margin-top: 32px;
+    margin-top: -16px;
     margin-left: -23px;
     grid-area: footer-texts;
   }
@@ -674,6 +674,7 @@ footer {
     margin-left: -230px;
     gap: 19px;
     grid-area: footer-texts;
+    
   }
   .footer-text {
     text-align: left;
