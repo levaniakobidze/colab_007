@@ -405,6 +405,9 @@ footer {
   margin-top: 39px;
   margin-bottom: 56px;
 }
+.hover-image{
+  display: none;
+}
 @media screen and (min-width: 768px) {
   nav {
     padding: 28px 39px;
@@ -598,6 +601,9 @@ footer {
     margin-right: -10px;
     grid-area: copyright;
   }
+  .hover-image{
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -606,6 +612,9 @@ footer {
   }
   .links a:hover {
     color: #bdbdbd;
+  }
+  .bg-color{
+    height: 100px;
   }
   .get-invite:hover {
     background-color: #dfdfdf;
@@ -618,6 +627,25 @@ footer {
     height: 650px;
     width: 1440px;
     padding: 122px 940px 122px 112px;
+  }
+  .section1-part2-div2{
+    position: relative;
+  }
+  .read-story:hover{
+    text-decoration: underline;
+    cursor:pointer;
+  }
+  .hover-image{
+    display: block;
+    opacity: 0;
+    position: absolute;
+    left: -112px;
+    bottom: -130px;
+    z-index: 2;
+    transition: 0.3s;
+  }
+  .read-story:hover .hover-image{
+    opacity: 1;
   }
   h2 {
     font-size: 40px;
