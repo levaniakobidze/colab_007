@@ -302,6 +302,103 @@ nav {
   margin-top: 24px;
   gap: 16px;
 }
+footer {
+  background-color: #000000;
+  /* height: 539px; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.footer-logo {
+  margin-top: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.invite {
+  display: flex;
+  gap: 22px;
+  justify-content: center;
+  margin-top: 119px;
+}
+.footer-texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 19px;
+  margin-top: 51px;
+}
+.footer-text {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.icons {
+  display: flex;
+  gap: 14.33px;
+  justify-content: center;
+  margin-top: 32px;
+  cursor: pointer;
+}
+.icon {
+  height: 20px;
+  width: 20px;
+  background-size: cover;
+  display: inline-block;
+}
+.facebook {
+  background-image: url(./assets/shared/desktop/facebooklogo.svg);
+}
+
+.youtube {
+  background-image: url(./assets/shared/desktop/youtubelogo.svg);
+}
+
+.twitter {
+  background-image: url(./assets/shared/desktop/twitterlogo.svg);
+}
+
+.pinterest {
+  background-image: url(./assets/shared/desktop/pinterest.logo.svg);
+}
+
+.instagram {
+  background-image: url(./assets/shared/desktop/instagramlogo.svg);
+}
+
+.invite p {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height */
+
+  letter-spacing: 2px;
+
+  color: #ffffff;
+}
+.copyright {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 50%;
+  margin-top: 39px;
+  margin-bottom: 56px;
+}
+.arrow {
+  height: 12px;
+  width: 42px;
+}
 @media screen and (min-width: 768px) {
   nav {
     padding: 28px 39px;
@@ -425,6 +522,54 @@ nav {
     height: 12px;
     width: 42px;
   }
+  footer {
+    /* height: 284px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+    width: 100%;
+    padding: 60px 40px;
+  }
+  .logo-icons-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  .footer-logo {
+    margin-bottom: 120px;
+    margin-top: 0;
+  }
+  .footer-texts {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+  }
+  .invite-copyright {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .invite {
+    margin-bottom: 100px;
+    margin-top: 20px;
+  }
+  .copyright {
+    margin-bottom: 0;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -474,7 +619,7 @@ nav {
     margin-top: -25px;
   }
   .bottom-component {
-    margin-top: 360px;
+    margin-top: 120px;
     background-image: url(./assets/shared/desktop/bg-beta.jpg);
     padding: 68px 165px;
   }
@@ -484,9 +629,67 @@ nav {
   .gradient-bottom {
     margin-left: -165px;
   }
-  .read-story {
-  }
+
   .read-story:hover {
     border-bottom: 1px solid white;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+    width: 100%;
+    padding: 64px 165px 65px 171px;
+  }
+  .logo-icons-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo-icons {
+    margin-right: 125px;
+  }
+
+  .footer-texts {
+    position: unset;
+    transform: translateY(-26px);
+    /* top: 0;
+    left: 200px; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footer-text:hover {
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.3;
+  }
+  .invite p:hover {
+    border-bottom: 1px solid white;
+  }
+  .facebook:hover,
+  .facebook:focus {
+    background-image: url(./assets/shared/desktop/facebook.svg);
+  }
+  .youtube:hover,
+  .youtube:focus {
+    background-image: url(./assets/shared/desktop/youtube.svg);
+  }
+  .twitter:hover,
+  .twitter:focus {
+    background-image: url(./assets/shared/desktop/twitter.svg);
+  }
+  .pinterest:hover,
+  .pinterest:focus {
+    background-image: url(./assets/shared/desktop/pinterest.svg);
+  }
+  .instagram:hover,
+  .instagram:focus {
+    background-image: url(./assets/shared/desktop/instagram.svg);
   }
 }
