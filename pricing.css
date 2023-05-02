@@ -902,6 +902,12 @@ footer {
   .head-hr {
     width: 100%;
   }
+  .check4{
+    margin-left: 16px;
+  }
+  .check5{
+    margin-left: 20px;
+  }
   /* bottom-component */
   .bottom-component {
     margin-top: 360px;
